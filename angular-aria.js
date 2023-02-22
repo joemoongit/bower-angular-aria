@@ -101,7 +101,7 @@ var isNodeOneOf = function(elem, nodeTypeArray) {
 function $AriaProvider() {
   var config = {
     ariaHidden: true,
-    ariaChecked: true,
+    ariaChecked: false,
     ariaReadonly: true,
     ariaDisabled: true,
     ariaRequired: true,
